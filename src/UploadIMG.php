@@ -2,7 +2,7 @@
 
 namespace UploadIMG;
 
-class UploadIMG{
+trait UploadIMG{
     public function photo($img, $path)
     {
         $imgname = md5(time()). '.'. explode('/', $img['type'])[1];
