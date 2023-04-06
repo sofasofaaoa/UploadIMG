@@ -1,0 +1,20 @@
+{
+    "name": "sofasofaaoa/collect",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sofasofaaoa",
+            "email": "ladyrobertus3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        }
+    }
+}
